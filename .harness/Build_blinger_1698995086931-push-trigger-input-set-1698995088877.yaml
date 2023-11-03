@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_blinger_1698995086931-push-trigger-input-set
+  identifier: Build_blinger_1698995086931pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_blinger_1698995086931
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
